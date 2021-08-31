@@ -26,7 +26,7 @@
 > [Chart.js](https://www.chartjs.org/)
 
 # License
-> [MIT](https://github.com/Hiper1125/dungeon/blob/main/LICENSE)
+> [MIT](https://github.com/Hiper1125/lymph/blob/main/LICENSE)
 
 # Authors
 > Made by [Hiper1125](https://github.com/Hiper1125)
