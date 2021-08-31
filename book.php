@@ -1,0 +1,142 @@
+<?php
+
+include 'res/php/main.php';
+include 'res/php/book.php';
+
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lymph &mdash; Book</title>
+  <link rel="shortcut icon" href="../res/images/favicon.svg" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- ----------------- Google Fonts ---------------- -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- --------------- External CSS -------------- -->
+  <link rel="stylesheet" href="../res/css/bootstrap.css">
+  <link rel="stylesheet" href="../res/css/style.css">
+  <link rel="stylesheet" href="../res/css/responsive.css">
+
+</head>
+
+<body class="animte-in">
+
+  <!-- ===================== Banner Part Start ================= -->
+  <section id="visitModule">
+
+    <!-- ===================== Inner Menu Start ================= -->
+    <section id="menu">
+      <div class="container menu">
+        <nav class="navbar navbar-expand-lg">
+          <a class="navbar-brand d-flex align-items-center" href="#">
+            <img src="../res/images/logo.png" class="img-fluid logoImg" alt="logo">
+            <h1 class="logoText">Lymph</h1>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto ml-auto">
+              <li class="nav-item ">
+                <a class="nav-link mr-3" href="index.php">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mr-3" href="about.php">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mr-3" href="doctors.php">Doctors</a>
+              </li>
+              <li class="nav-item activee">
+                <a class="nav-link" href="#">Book</a>
+              </li>
+            </ul>
+            <button id="login" class="btn btn-outline-success my-2 my-sm-0 loginBtn" type="submit">Login</button>
+          </div>
+        </nav>
+      </div>
+    </section>
+    <!-- ===================== Inner Menu End ================= -->
+
+    <!-- ===================== Banner Content Start ================= -->
+    <div class="banner container">
+      <form action="book.php" method="POST">
+        <h1 class="visitModuleTitle text-center mt-4">Visit Module</h1>
+
+        <div class="visitSmTitleCtrl">
+          <h3 class="visitModuleDescription mt-4 pt-4 pb-3">Compile the module:</h3>
+        </div>
+
+        <div class="visitModuleContent">
+          <div class="row d-flex justify-content-center">
+            <div class="col-md-5 mr-md-3 pr-md-5">
+              <div class="form-group pb-2">
+                <label for="doctor">Doctor</label>
+                <select required class="form-control inputHeightCtrl pr-3" id="doctor" name="doctor">
+
+                  <?php
+                  if (isset($_SESSION['Doctors'])) {
+                    foreach ($_SESSION['Doctors'] as &$Doctor) {
+                      echo "<option>" . $Doctor['Surname'] . " " . $Doctor['Name'] . "</option>";
+                    }
+                  } else {
+                    echo
+                    "<option>Surname Name</option>
+                      <option>Test Name</option>
+                      <option>Test Name</option>";
+                  }
+                  ?>
+
+
+                </select>
+              </div>
+              <div class="form-group pt-md-4">
+                <label for="date">Date</label>
+                <input type="date" class="form-control inputHeightCtrl" id="date" placeholder="Date" required name="date">
+              </div>
+            </div>
+            <div class="col-md-5 ml-md-3 pr-md-5">
+              <div class="form-group ctrlmtlg5">
+                <label for="exampleFormControlInput1">Personal Information</label>
+                <input type="text" class="form-control inputHeightCtrl" id="name" name="name" placeholder="Name" required>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control inputHeightCtrl" id="name" name="surname" placeholder="Surname" required>
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control inputHeightCtrl" id="name" name="email" placeholder="Email" required>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="btnCtrl text-center">
+          <input type="submit" class="btn btn-lg mt-4 mb-4 inputHeightCtrl nextBtn" value="Next">
+        </div>
+      </form>
+    </div>
+    <!-- ===================== Banner Content Start ================= -->
+  </section>
+  <!-- ===================== Banner Part End ================= -->
+
+  <!-- JS FILES -->
+  <script src="https://kit.fontawesome.com/5857fbd9b0.js" crossorigin="anonymous"></script>
+  <script src="../res/js/jquery.slim.js"></script>
+  <script src="../res/js/popper.min.js"></script>
+  <script src="../res/js/bootstrap.min.js"></script>
+  <script src="../res/js/book.js"></script>
+  <script src="../res/js/core.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,999 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 479px) {
+  #menu .logoText {
+    font-size: 27px;
+  }
+
+  .logoImg {
+    height: 45px;
+  }
+
+  .banner .bannerTitle {
+    font-size: 23px;
+  }
+
+  .banner {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  #banner {
+    background: none;
+  }
+
+  .banner .bannerTitle {
+    line-height: 28px;
+  }
+
+  .banner .bannerDescription, .banner .bannerDescript {
+    line-height: 28px;
+  }
+
+  /* ===========Information Page =========== */
+  .visitModuleTitle {
+    font-size: 35px;
+  }
+
+  .informationSubTitle {
+    font-size: 15px;
+  }
+
+  .accResc {
+    margin-top: 10%;
+  }
+
+  .dataTblResCtrl {
+    margin-top: 6rem !important;
+  }
+
+  .patientId {
+    margin-top: 66%;
+  }
+
+  .patientId h2 {
+    font-size: 25px;
+  }
+
+  .patientId input {
+    width: 125px;
+  }
+
+  .envelopeRecCtrlInfo {
+    left: 35%;
+    top: 111%;
+  }
+  .arfit {
+    left: 0 !important;
+  }
+
+  /* =========== Dashboard ===== */
+  #myChart {
+    height: auto !important;
+  }
+
+  .dashboard {
+    height: auto;
+    width: 100%;
+  }
+
+  .dashTitle {
+    font-size: 11px;
+  }
+
+  .firstWcBtnRsc {
+    left: 0;
+    bottom: -47%;
+  }
+
+  .secondtWcBtnRsc {
+    left: 35%;
+    bottom: -47%;
+  }
+
+  .thirdtWcBtnRsc {
+    left: 70%;
+    bottom: -47%;
+  }
+
+  .welcomeTable .tableCtrl thead tr th {
+    padding: 10px;
+  }
+
+  /* ========== Visit Module Page ============= */
+  .visitModuleDescription {
+    font-size: 20px;
+  }
+
+  .visitModuleContent {
+    width: 100%;
+    background: none;
+  }
+
+
+  .tblArrow1 {
+    left: 0;
+    bottom: -14%;
+  }
+  .tblArrow2 {
+    left: 35%;
+    bottom: -14%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 480px) {
+  .banner {
+    min-height: 59vh;
+  }
+
+  #menu .logoText {
+    font-size: 27px;
+  }
+
+  .logoImg {
+    height: 45px;
+  }
+
+  .banner .bannerTitle {
+    font-size: 23px;
+  }
+
+  .banner {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  #banner {
+    background: none;
+  }
+
+  .banner .bannerTitle {
+    line-height: 28px;
+  }
+
+  .banner .bannerDescription, .banner .bannerDescript  {
+    line-height: 28px;
+  }
+
+  /* ============= Information page============ */
+  .patientId {
+    margin-top: 42%;
+  }
+
+  .accResc {
+    margin-top: 10%;
+  }
+
+  .dataTblResCtrl {
+    margin-top: 6rem !important;
+  }
+
+  .envelopeRecCtrlInfo {
+    left: 35%;
+    top: 108%;
+  }
+  .arfit {
+    left: 0 !important;
+  }
+
+  /* =============== Dashboard ================= */
+  #myChart {
+    height: auto !important;
+  }
+
+  .dashboard {
+    height: auto;
+    width: 100%;
+  }
+
+  .dashTitle {
+    font-size: 11px;
+  }
+
+  .welcomeTable .tableCtrl thead tr th {
+    padding: 10px;
+  }
+
+  /* .firstWcBtnRsc {
+        left: 0;
+        bottom: -37%;
+    } */
+
+  /* .secondtWcBtnRsc {
+        left: 35%;
+        bottom: -37%;
+    } */
+
+  /* .thirdtWcBtnRsc {
+        left: 70%;
+        bottom: -37%;
+    } */
+
+  /* ========== Visit Module Page ============= */
+  .visitModuleDescription {
+    font-size: 20px;
+  }
+
+  .visitModuleContent {
+    width: 100%;
+    background: none;
+  }
+
+
+  /* ================ Welcome Page ================= */
+  .welcomeTable {
+    width: 100%;
+  }
+  .tblArrow1 {
+    left: 0;
+    bottom: -14%;
+  }
+  .tblArrow2 {
+    left: 35%;
+    bottom: -14%;
+  }
+
+  .firstWcBtnRsc {
+    left: 0;
+    bottom: -47%;
+  }
+  .secondtWcBtnRsc {
+    left: 35%;
+    bottom: -47%;
+  }
+  .thirdtWcBtnRsc {
+    left: 70%;
+    bottom: -47%;
+  }
+  .tblArrow1 {
+    bottom: -20%;
+  }
+  .tblArrow2 {
+    bottom: -20%;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .img-fluid {
+    display: none;
+  }
+
+  .centerer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .immagine {
+    display: none;
+  }
+
+  .d-flex {
+    justify-content: center;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  #menu .logoText {
+    font-size: 30px;
+  }
+
+  .logoImg {
+    height: 65px;
+  }
+
+  .banner .bannerTitle {
+    font-size: 32px;
+  }
+
+  .banner .bannerDescription, .banner .bannerDescript  {
+    font-size: 16px;
+  }
+
+  /* ============== Information Page============ */
+  .patientId h2 {
+    font-size: 25px;
+  }
+
+  .patientId input {
+    width: 120px;
+  }
+
+  .right2Ctrl {
+    top: 51%;
+  }
+
+  .extraBtn {
+    position: absolute;
+    right: -24%;
+    bottom: -72%;
+    cursor: pointer;
+  }
+
+  .extraBtn {
+    position: absolute;
+    right: -24%;
+    bottom: -45%;
+    cursor: pointer;
+  }
+  .arfit {
+    left: 106% !important;
+  }
+
+  /* =============== Dashboard ============= */
+  #myChart {
+    height: auto !important;
+  }
+
+  .dashboard {
+    height: auto;
+    width: 100%;
+  }
+
+  .dashTitle {
+    font-size: 11px;
+  }
+
+  /* .firstWcBtnRsc {
+        left: 0;
+        bottom: -27%;
+    } */
+
+  /* .secondtWcBtnRsc {
+        left: 35%;
+        bottom: -27%;
+    } */
+
+  /* .thirdtWcBtnRsc {
+        left: 70%;
+        bottom: -27%;
+    } */
+
+  /* ================== Visit Module page ================= */
+  .information label {
+    font-size: 14px;
+  }
+
+  /* ============== Welcome Page ================= */
+  .welcomeTable {
+    width: 100%;
+  }
+
+  .tblW {
+    width: 143px !important;
+  }
+
+  .tblw2 {
+    width: 132px !important;
+  }
+  .removeMTE {
+    margin-top: 0;
+  }
+  .enrig {
+    left: 104%;
+  }
+
+  .firstWcBtnRsc {
+    left: 0;
+    bottom: -25%;
+  }
+  .secondtWcBtnRsc {
+    left: 35%;
+    bottom: -25%;
+  }
+  .thirdtWcBtnRsc {
+    left: 70%;
+    bottom: -25%;
+  }
+
+  .btnCtrl {
+    margin-top: 0%;
+  }
+  .visitModuleContent {
+    background: #e1eef8;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  #menu .logoText {
+    font-size: 30px;
+  }
+
+  .logoImg {
+    height: 65px;
+  }
+
+  .banner .bannerTitle {
+    font-size: 35px;
+  }
+
+  .banner .bannerDescription, .banner .bannerDescript  {
+    font-size: 17px;
+  }
+
+  .no-login {
+    margin-right: 130px;
+  }
+
+  /* =========== Information Page =========== */
+  .patientId h2 {
+    font-size: 25px;
+  }
+
+  .patientId input {
+    width: 120px;
+  }
+
+  .envelopeRecCtrlInfo {
+    right: -26%;
+  }
+  .arfit {
+    left: 106% !important;
+  }
+
+  /* ==================== Dashboard =============== */
+  #myChart {
+    height: auto !important;
+  }
+
+  .dashboard {
+    height: auto;
+    width: 100%;
+  }
+
+  /* ================== Visit Module page ================= */
+  .information label {
+    font-size: 14px;
+  }
+
+  /* ============== Welcome Page ================= */
+  .welcomeTable {
+    width: 100%;
+  }
+
+  .tblW {
+    width: 143px !important;
+  }
+
+  .tblw2 {
+    width: 132px !important;
+  }
+
+  .wcbtcarrow {
+    right: -10% !important;
+  }
+  #banner {
+    background: none;
+  }
+  .banner {
+    width: 60%;
+  }
+
+  .dashboard {
+    width: 80%;
+  }
+  .firstWcBtnRsc {
+    left: 107%;
+    bottom: -16%;
+  }
+  .secondtWcBtnRsc {
+    left: 107%;
+    bottom: 2%;
+  }
+  .thirdtWcBtnRsc {
+    left: 107%;
+    bottom: 20%;
+  }
+
+  .tblArrow2 {
+    left: 105%;
+    bottom: -14%;
+  }
+  .tblArrow1 {
+    left: 105%;
+  }
+  .welcomeTable {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+  }
+  .tblArrow1 {
+    left: 0;
+    bottom: -14%;
+  }
+  .tblArrow2 {
+    left: 35%;
+    bottom: -14%;
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .tblArrow2 {
+    left: 105%;
+    bottom: -14%;
+  }
+  .tblArrow1 {
+    left: 105%;
+  }
+  .welcomeTable {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+  }
+  #banner {
+    background: none;
+  }
+
+  .loginBtn {
+    width: 130px;
+    padding: 10px 0;
+    font-weight: 700;
+    color: #037682;
+    border: 2px solid #037682;
+    border-radius: 5px;
+  }
+
+  #menu .logoText {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 65px;
+    font-family: "Nunito", sans-serif;
+    color: #313486;
+  }
+
+  .nav-item .activee {
+    color: #313486 !important;
+  }
+
+  .nav-item .nav-link {
+    font-family: "Comfortaa", "cursive";
+    color: #037682;
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  .nav-item .nav-link:hover {
+    color: #313486 !important;
+  }
+
+  .banner {
+    min-height: 80vh;
+  }
+  .banner .bannerTitle {
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 87px;
+    font-family: "Nunito", sans-serif;
+    color: #313486;
+  }
+  .banner {
+    font-family: "Comfortaa", "cursive";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 37px;
+    color: #0e444b;
+    width: 100%;
+  }
+  .banner .bannerBtn {
+    width: 210px;
+    background: #313486;
+    border-radius: 5px;
+    padding: 10px 0;
+  }
+
+  .visitModuleTitle {
+    font-family: "Nunito", sans-serif;
+    font-weight: 800;
+    font-size: 70px;
+    color: #313486;
+  }
+
+  .visitModuleDescription {
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #313486;
+  }
+
+  .visitModuleContent {
+    background: #000;
+    width: 72%;
+    margin: 30px auto;
+    background: #e1eef8;
+    border-radius: 25px;
+    padding: 20px 0px;
+  }
+
+  .visitSmTitleCtrl {
+    width: 72%;
+    margin: 0 auto;
+  }
+
+  .information {
+    height: 200px;
+  }
+  .information label {
+    font-family: "Comfortaa", "cursive";
+    font-weight: 700;
+    font-size: 18px;
+    color: #313486;
+  }
+
+  .inputHeightCtrl {
+    height: 55px;
+    background: #313486;
+    border-radius: 15px;
+    color: #fff;
+    border: none;
+  }
+
+  .inputHeightCtrl:focus {
+    background: #313486;
+    color: #fff;
+  }
+
+  .inputHeightCtrl::placeholder {
+    color: #fff;
+  }
+
+  .btnCtrl .nextBtn {
+    width: 200px;
+  }
+
+  .btnCtrl .nextBtn:hover {
+    color: #fff;
+  }
+
+  .informationSubTitle {
+    font-family: "Comfortaa", "cursive";
+    font-weight: 700;
+    font-size: 26px;
+    color: #0e444b;
+  }
+
+  .infoData {
+    height: 185px;
+  }
+
+  .tableSubBody {
+    height: 75px;
+    border-radius: 0 0 25px 25px;
+    -webkit-border-radius: 0 0 25px 25px;
+    -moz-border-radius: 0 0 25px 25px;
+    -ms-border-radius: 0 0 25px 25px;
+    -o-border-radius: 0 0 25px 25px;
+    background: rgba(105, 168, 221, 0.2);
+  }
+  .tableSubBody .tablInputCtrl input {
+    height: 70px;
+    text-align: center;
+    font-family: "Comfortaa", "cursive";
+    font-weight: 700;
+    font-size: 20px;
+    color: #313486;
+    background: transparent;
+    border: none;
+    margin-top: 10px;
+  }
+  .tableSubBody .tablInputCtrl .form-control::placeholder {
+    color: #000000;
+  }
+
+  .dataText {
+    font-family: "Comfortaa", "cursive";
+    font-weight: 700;
+    font-size: 28px;
+    color: #000000;
+  }
+
+  .infoAccount {
+    height: 100px;
+  }
+
+  .patientId {
+    height: 110px;
+    font-family: "Comfortaa", "cursive";
+    background: #e1eef8;
+    border: 6px solid #313486;
+    border-radius: 25px;
+    margin-top: 10%;
+  }
+  .patientId h2 {
+    color: #313486;
+    font-weight: 700;
+  }
+  .patientId input {
+    width: 170px;
+    height: 60px;
+    border: 3px solid #313486;
+    border-radius: 10px;
+    font-family: "Comfortaa", "cursive";
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    color: #000000;
+    background: transparent;
+  }
+
+  .register {
+    position: relative;
+  }
+  .register .regBtn {
+    height: 110px;
+    width: 100%;
+    font-family: "Comfortaa", "cursive";
+    font-weight: 700;
+    font-size: 2rem;
+    color: #ffffff;
+    background: #313486;
+    border: 6px solid #313486;
+    border-radius: 25px;
+    margin-top: 14%;
+  }
+  .register button:hover {
+    color: #ffffff;
+  }
+
+  .extraBtn {
+    position: absolute;
+    right: -42%;
+    bottom: -72%;
+    cursor: pointer;
+  }
+
+  .right2Ctrl {
+    top: 40%;
+  }
+
+  .rightBtnCtrl {
+    height: 80px;
+    width: 80px;
+    background: #313486;
+    color: #ffffff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    font-size: 40px;
+  }
+
+  .rightBtnCtrl:hover {
+    color: #fff;
+  }
+
+  .tableCtrl {
+    margin-bottom: 0;
+  }
+  .tableCtrl thead tr {
+    height: 80px;
+  }
+  .tableCtrl thead tr th {
+    border-bottom: none;
+    border-top: none;
+    padding: 0;
+  }
+  .tableCtrl thead tr th input {
+    height: 70px;
+    text-align: center;
+  }
+
+  .tableCtrl2 {
+    margin-bottom: 0;
+  }
+  .tableCtrl2 thead tr th {
+    border-bottom: none;
+    border-top: none;
+    text-align: center;
+  }
+  .tableCtrl2 thead tr th input {
+    height: 70px;
+    text-align: center;
+  }
+
+  .dataTblCt thead tr th {
+    border-bottom: none;
+    border-top: none;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    color: #000000;
+    line-height: 2.5;
+  }
+  .dataTblCt thead tr th span {
+    font-size: 15px;
+    margin-left: 4px;
+    font-weight: 500;
+  }
+
+  .null input::placeholder {
+    font-family: "Comfortaa", "cursive";
+    font-weight: 700;
+    font-size: 20px;
+    color: #000000;
+  }
+
+  .null input {
+    font-family: "Comfortaa", "cursive";
+    font-weight: 700;
+    font-size: 20px;
+    color: #000000;
+  }
+
+  .tableTitle {
+    background: #313486;
+    border-radius: 25px 25px 0px 0px;
+  }
+  .tableTitle thead tr th {
+    font-family: "Comfortaa", "cursive";
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffffff;
+  }
+
+  .tableSubTitleCt {
+    background: #fff;
+  }
+
+  .welcomeTable {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .welcomeExBtn {
+    position: absolute;
+    right: -17%;
+    bottom: -20%;
+  }
+
+  .welcomeExBtn2 {
+    position: absolute;
+    right: -17%;
+    bottom: 13%;
+  }
+  .welcomeExBtn2 img {
+    height: 40px;
+  }
+  .welcomeExBtn2 .rightBtnCtrl {
+    line-height: 0;
+  }
+
+  .tabelHead {
+    color: #ffffff;
+    background: #313486;
+    border-radius: 25px 25px 0px 0px;
+  }
+
+  .ctrlBB th {
+    border-bottom: none !important;
+    border-top: none;
+    height: 60px;
+    font-family: "Comfortaa", "cursive";
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+  .secondTable {
+    background: #e1eef8;
+  }
+  .secondTable tr {
+    height: 60px;
+    font-family: "Comfortaa", "cursive";
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+  .dashboard {
+    height: 480px;
+    background: #e1eef8;
+    border: 6px solid #313486;
+    border-radius: 25px;
+    width: 95%;
+  }
+
+  #myChart {
+    height: 430px !important;
+  }
+
+  .DashboardController {
+    position: relative;
+  }
+
+  .dashTitle {
+    position: absolute;
+    right: 4%;
+    top: 4%;
+    font-family: "Comfortaa", "cursive";
+    font-size: 18px;
+    color: #313486;
+  }
+
+  .heartBitCtrl {
+    bottom: 25%;
+  }
+
+  .dblAro {
+    bottom: 3%;
+  }
+
+  .welcomeTable table {
+    border-collapse: separate;
+    border-spacing: 0;
+    font-family: "Comfortaa", "cursive";
+    font-weight: 700;
+    font-size: 18px;
+    color: #000000;
+  }
+  .welcomeTable table tr th,
+  .welcomeTable table tr td {
+    border-right: 1px solid none;
+    border-bottom: 1px solid #e1eef8;
+  }
+  .welcomeTable table tr th:first-child,
+  .welcomeTable table tr td:first-child {
+    border-left: 1px solid #e1eef8;
+  }
+  .welcomeTable table tr th {
+    background: #313486;
+    border-top: 1px solid none;
+  }
+  .welcomeTable table tr:first-child th:first-child {
+    border-top-left-radius: 25px;
+  }
+  .welcomeTable table tr:first-child th:last-child {
+    border-top-right-radius: 25px;
+  }
+  .welcomeTable table tr:last-child td:first-child {
+    border-bottom-left-radius: 25px;
+  }
+  .welcomeTable table tr:last-child td:last-child {
+    border-bottom-right-radius: 25px;
+  }
+  .welcomeTable tbody {
+    background: #e1eef8;
+  }
+  .welcomeTable .tableCtrl thead tr th {
+    padding: 20px;
+  }
+
+  .accResc {
+    margin-top: 0;
+  }
+  .enrig {
+    left: 105%;
+  }
+  .dashboard {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  #banner {
+    background: url(../images/banner.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+  }
+
+  .img-fluid {
+    display: none;
+  }
+}
+
+.loginInput {
+  background-color: #69a8dd;
+  width: 25rem;
+  border-radius: 10px !important;
+}
+
+.loginButton {
+  border-radius: 10px !important;
+}
