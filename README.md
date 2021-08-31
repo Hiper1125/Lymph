@@ -4,8 +4,8 @@
 > Lymph is a medical rehabilitation oriented website
 
 # Features
-> Only the main pages of the Website have been developed, allowing login functionality for doctors and patient data management.
-> 
+> Only the main pages of the website have been developed, allowing login functionality for doctors and patient data management.
+
 # Resources used
 > HTML5
 > 
