@@ -2,12 +2,13 @@
 
 # 💮 Lymph, rehabilitation made easy
 
- 👨‍⚕️ Lymph is a PHP gamification website created for doctors and patients' rehabilitation, made at school as a study project.
+ 👨‍⚕️ Lymph is a PHP medical gamification website created for doctors, and patients who need rehabilitation, made at school.
 
 - If you need help with this project, you can join my discord server by just clicking [here](https://discord.gg/hKFFG2JD9M).
 - If you don't have any web development knowledge, I suggest you to join my Discord server to get help.*
 
 [![](https://media.discordapp.net/attachments/428214132613971979/1012513734750650378/LaunchLymph.png)](https://hiper1125.github.io/Lymph/)
+[![](https://media.discordapp.net/attachments/916054413225885706/1051893043894165565/thesis_button.png)](https://www.dropbox.com/sh/tko9tzubmq6ve0g/AADpC0ucO7EoAayv8GZWLADea?dl=0)
 
 ### 🏥 Features
 
@@ -15,7 +16,7 @@ Only the main pages of the website have been developed, allowing login functiona
 
 - Secure login system with MySQL database integration.
 - Secure patient account creation system using MySQL database integration.
-- Patient data storage and analysis sytem.
+- Patient data storage and analysis system.
 
 ![](https://media.discordapp.net/attachments/428214132613971979/1012514849630203925/Lymph_Home.png?width=1179&height=663)
 
